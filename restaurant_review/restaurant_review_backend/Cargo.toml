@@ -1,0 +1,12 @@
+[package]
+name = "restaurant_review_backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = "0.10.0"
+thiserror = "2.0.1"
+solana-program = "1.18.14"
+
+[lib]
+crate-type = ["cdylib", "lib"]
